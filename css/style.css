@@ -12,15 +12,14 @@ body {
 }
 
 .container {
-    position: absolute;
     width: 602px;
-    margin-left: 30%;
-    margin-right: auto;
-    margin-top: 10%;
     border: 1px solid rgba(0, 0, 0, 0.452);
     border-radius: 8px;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.568);
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 } 
 
 .superior {
